@@ -1,5 +1,4 @@
 class Family{
- 
   String? name;     
   int? age;
   int? phone;
