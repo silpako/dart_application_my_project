@@ -4,6 +4,7 @@ void main(){
   print(x);
   addition();
   subtraction(); 
+  Multiplication();
   Demo obj = Demo();
   obj.add();
   obj.sub();
@@ -12,11 +13,15 @@ void main(){
 ///user defined function - return type functionname(){}
 void addition(){
   int a = 100 , b = 200;
-  print('Add Sum = ${a+b}');
+  print('Addition = ${a+b}');
 }
 void subtraction(){
   int a = 200 , b = 50;
   print('Difference = ${a-b}');
+}
+void Multiplication(){
+  int a = 500 , b = 3;
+  print('Multiplication = ${a*b}');
 }
 
 class Demo{
