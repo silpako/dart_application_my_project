@@ -30,4 +30,20 @@ void main()
   Set s2={1,2,3};
   s2.add("mango");
   print(s2);
+
+/// same in set and list , forEach is used for  ( for in )
+  s2.forEach((element) {print(element);});
+
+/// same as above 
+  for(var i in s2)
+  {
+    print(i);
+  }
+
+/// in list case
+  List s3 = [1, 2, 3, 4, 5];
+  s3.forEach((element) {print(element);});
+
+fruits.removeAll({"Apple"});
+print("fruit after removing: $fruits");
 }
