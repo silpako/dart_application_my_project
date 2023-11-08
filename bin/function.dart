@@ -25,7 +25,14 @@ void main(){
   print(value_returned_from_func2 );
   func3(100, "silpa");
   print(func4(100, "Hi"));
-}
+  func5();
+  print(func6(1000));
+  
+  var list =[1,2,3,4,5];
+  print(list);
+  // anoymouse function 
+  list.forEach((element) { });
+  } 
 
 /// user defined default function without returntype
  void func1()
@@ -54,3 +61,10 @@ int func2(){
   return '$i $y $x';
  }
  
+ /// lambda function/arrow fn/ flat arrow fn - only one action perform. operation or a single value 
+ 
+ void func5() => print("hello");
+
+ bool func6(int x) => x;
+
+
