@@ -4,7 +4,7 @@ void main(){
   print(x);
   addition();
   subtraction(); 
-  Multiplication();
+  multiplication();
   Demo obj = Demo();
   obj.add();
   obj.sub();
@@ -19,7 +19,7 @@ void subtraction(){
   int a = 200 , b = 50;
   print('Difference = ${a-b}');
 }
-void Multiplication(){
+void multiplication(){
   int a = 500 , b = 3;
   print('Multiplication = ${a*b}');
 }

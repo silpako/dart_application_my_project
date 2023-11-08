@@ -1,4 +1,6 @@
-//   categories  of Functions / Method
+//    Function outside 
+//
+//categories  of Functions / Method
 //-------------------------------------
 // 1. main function         - void main 
 // 2. built in function     - forEach , toList
