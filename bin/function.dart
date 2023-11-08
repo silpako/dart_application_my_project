@@ -36,7 +36,7 @@ void main(){
 
 /// user defined default function without returntype
  void func1()
- {
+ { 
   int x = 50;
   print(" Function x:$x");
 }
