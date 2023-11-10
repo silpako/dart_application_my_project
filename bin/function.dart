@@ -1,5 +1,5 @@
-//    Function outside 
-//
+//    Function - outside  the class
+//    Method   -  inside the class 
 //categories  of Functions / Method
 //-------------------------------------
 // 1. main function         - void main 
@@ -67,6 +67,8 @@ int func2(){
  
  void func5() => print("hello");
 
- bool func6(int x) => x;
+//  bool func6(int x) => x;
+int func6(int x) =>100+72+x;
+ 
 
 
