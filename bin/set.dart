@@ -32,7 +32,7 @@ void main()
   print(s2);
 
 /// same in set and list , forEach is used for  ( for in )
-  s2.forEach((element) {print(element);});
+  s2.forEach((element){print(element);});
 
 /// same as above 
   for(var i in s2)
