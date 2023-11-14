@@ -1,5 +1,5 @@
 // Map<K,V>Class -A collection of key/value pairs, from which you retrieve a value using its associated key.
-
+//{} is representation of map(literal way)
 void main(){
 
 // Create an empty map
@@ -27,10 +27,8 @@ MapEntry("Six",  6)]);
 // Iterable is an interface that defines a way to access a sequence of elements.
 
 Map m5 = Map.fromIterable(
-    ['Apple', 'Orange', 'Mango'],
-    key: (fruit) => fruit, // Use the lowercase of the fruit as the key
-    value: (fruit) => 'Juicy $fruit', // Add a prefix to the value
-  );
+    ['Apple', 'Orange', 'Mango'],key: (fruit) => fruit,
+     value: (fruit) => 'Juicy $fruit',);
 
   // Print the resulting map
   print("Map from Iterable : $m5");
