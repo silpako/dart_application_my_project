@@ -18,7 +18,7 @@ class Child extends Parent
   }
 }
 void main(){
-  var obj=Child();
+  Child obj=Child();
   print("Student Name :${obj.cname}${obj.name}");
   obj.cdetails(10,2023);
   print("Father Name  : ${obj.name}");
