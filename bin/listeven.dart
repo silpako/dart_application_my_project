@@ -5,7 +5,8 @@ void main(){
 
   int sum = 0;
   for (int i=  0; i<list.length; i++) {
-    if (list[i] % 2 == 0) {
+    if (list[i] % 2 == 0) 
+    {
       sum += list[i];
     }
   }
